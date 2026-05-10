@@ -1,0 +1,472 @@
+{
+  "site": {
+    "name": "SEED Digital School",
+    "slogan": "École de formation numérique de pointe à Yaoundé",
+    "tagline": "Apprenez les métiers du numérique. Trouvez votre voie. Construisez votre carrière.",
+    "description_meta": "SEED Digital School - École de formation numérique à Yaoundé, Cameroun. Cursus en programmation web, mobile, marketing digital, graphisme, secrétariat & bureautique. Packs courts et longs.",
+    "keywords_meta": "SEED Digital School, formation numérique Yaoundé, école informatique Cameroun, programmation web, marketing digital, graphisme, secrétariat, bureautique, formation Photoshop, Word Excel PowerPoint",
+    "annee_courante": 2026,
+    "url_canonical": "https://ds.seed-innov.com"
+  },
+  "contact": {
+    "whatsapp": "237650187006",
+    "whatsapp_display": "+237 650 187 006",
+    "phone": "237656193199",
+    "phone_display": "+237 656 193 199",
+    "email": "contact@seeds.cm",
+    "adresse_lignes": [
+      "SEED Digital School",
+      "Afriland First Bank",
+      "Étage au-dessus de la banque, porte à droite",
+      "Yaoundé, Cameroun"
+    ]
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "tiktok": "",
+    "youtube": ""
+  },
+  "info_rentree": {
+    "active": true,
+    "titre": "Prochaine rentrée",
+    "message": "Inscriptions ouvertes ! Rejoignez la prochaine session.",
+    "date_rentree_auto": true,
+    "date_rentree_manuelle": "",
+    "couleur_fond": "#fef3c7",
+    "couleur_texte": "#78350f"
+  },
+  "groupes": [
+    {"id": "g1", "label": "Groupe 1 : Lundi, Mercredi, Vendredi"},
+    {"id": "g2", "label": "Groupe 2 : Mardi, Jeudi, Samedi"}
+  ],
+  "packs_principaux": [
+    {
+      "slug": "express",
+      "nom": "Pack Express",
+      "duree_label": "2 mois",
+      "duree_mois": 2,
+      "couleur": "primary",
+      "description": "Une formation intensive de 2 mois pour acquérir les bases essentielles du domaine.",
+      "prix_unique_fcfa": 150000,
+      "prix_2tranches_total_fcfa": 180000,
+      "tranche_1_fcfa": 100000,
+      "tranche_2_fcfa": 90000,
+      "actif": true,
+      "ordre": 1
+    },
+    {
+      "slug": "avance",
+      "nom": "Pack Avancé",
+      "duree_label": "4 mois",
+      "duree_mois": 4,
+      "couleur": "success",
+      "description": "Une formation complète de 4 mois incluant des approfondissements et des cas pratiques.",
+      "prix_unique_fcfa": 200000,
+      "prix_2tranches_total_fcfa": 250000,
+      "tranche_1_fcfa": 150000,
+      "tranche_2_fcfa": 100000,
+      "actif": true,
+      "ordre": 2
+    },
+    {
+      "slug": "pro",
+      "nom": "Pack Pro",
+      "duree_label": "6 mois",
+      "duree_mois": 6,
+      "couleur": "danger",
+      "description": "Une formation de 6 mois avec un stage professionnel pour une immersion pratique dans le domaine.",
+      "prix_unique_fcfa": 250000,
+      "prix_2tranches_total_fcfa": 315000,
+      "tranche_1_fcfa": 200000,
+      "tranche_2_fcfa": 115000,
+      "actif": true,
+      "ordre": 3
+    }
+  ],
+  "pack_rapide": {
+    "actif": true,
+    "slug": "rapide",
+    "nom": "Pack Rapide — Formation Accélérée",
+    "sous_titre": "Initiation digitale en 6 semaines",
+    "duree_label": "6 semaines",
+    "duree_semaines": 6,
+    "prix_fcfa": 55000,
+    "couleur": "warning",
+    "image": "all.jpg",
+    "description": "Un parcours accéléré et autonome pour découvrir les fondamentaux du numérique en 6 semaines. Idéal pour s'initier rapidement avant de choisir un cursus long, ou pour acquérir les bases essentielles.",
+    "objectifs": [
+      "Découvrir les outils essentiels du monde digital",
+      "Maîtriser les bases de l'informatique et d'internet",
+      "Construire un premier projet pratique",
+      "Identifier la voie qui te correspond"
+    ],
+    "modules": [
+      "Initiation à l'informatique et environnement de travail",
+      "Internet, communication digitale et productivité",
+      "Bureautique de base (traitement de texte, tableur, présentations)",
+      "Introduction au design graphique",
+      "Introduction au marketing digital",
+      "Initiation à la programmation web"
+    ]
+  },
+  "modules_digitaux": {
+    "actif": true,
+    "slug": "modules",
+    "titre": "Formations Digitales Courtes",
+    "sous_titre": "Apprenez un outil à la fois — accessible à partir de 10 000 FCFA",
+    "description": "Pas le temps pour un cursus complet ? Nos modules courts vous permettent de monter en compétence sur un outil ou une technologie spécifique, à votre rythme.",
+    "packs": [
+      {
+        "slug": "essentiels",
+        "nom": "Pack Essentiels",
+        "prix_fcfa": 10000,
+        "couleur": "info",
+        "description": "Le pack indispensable pour démarrer dans le numérique. Idéal pour les débutants.",
+        "modules_inclus": [
+          "Initiation à l'informatique",
+          "Word — traitement de texte professionnel",
+          "Excel — tableurs et calculs",
+          "PowerPoint — présentations percutantes"
+        ]
+      },
+      {
+        "slug": "creatif",
+        "nom": "Pack Créatif",
+        "prix_fcfa": null,
+        "prix_label": "Sur demande",
+        "couleur": "secondary",
+        "description": "Pour les passionnés de design et de création visuelle.",
+        "modules_inclus": [
+          "Photoshop — retouche et création d'images",
+          "Initiation au graphisme et à l'identité visuelle"
+        ]
+      },
+      {
+        "slug": "developpeur",
+        "nom": "Pack Développeur",
+        "prix_fcfa": null,
+        "prix_label": "Sur demande",
+        "couleur": "dark",
+        "description": "Pour ceux qui veulent apprendre à coder un site web de A à Z.",
+        "modules_inclus": [
+          "HTML/CSS — structurer et styliser",
+          "JavaScript — rendre un site interactif",
+          "Web development — premier site en ligne"
+        ]
+      }
+    ]
+  },
+  "formations": [
+    {
+      "slug": "secretariat-bureautique",
+      "ordre": 1,
+      "actif": true,
+      "titre": "Secrétariat & Bureautique",
+      "image": "sb.jpg",
+      "couleur_thematique": "primary",
+      "description_courte": "Maîtrisez les outils bureautiques essentiels pour le secrétariat et devenez un expert en gestion administrative.",
+      "lead": "Acquérez les compétences essentielles pour devenir un(e) secrétaire efficace, maîtrisant les outils bureautiques modernes.",
+      "presentation": [
+        "Ce programme de formation est conçu pour vous doter des compétences nécessaires en secrétariat et en bureautique. Il couvre une gamme complète d'outils bureautiques et de pratiques administratives, allant de l'initiation à l'informatique jusqu'à la gestion de projets collaboratifs.",
+        "À l'issue de cette formation, vous serez capable de créer et de gérer des documents professionnels, de planifier et de coordonner des tâches administratives, et d'assurer une communication efficace au sein d'une organisation."
+      ],
+      "programme": {
+        "express": [
+          {"label": "Mois 1", "items": [
+            "Initiation à l'informatique et au traitement de texte",
+            "Prise en main d'un ordinateur",
+            "Internet (Email, réseaux sociaux, transfert de fichiers, etc.)",
+            "Création de documents professionnels avec MS Word",
+            "Mise en page avancée avec MS Word",
+            "Création de présentations professionnelles avec PowerPoint"
+          ]},
+          {"label": "Mois 2", "items": [
+            "Création de présentations et traitement de calculs",
+            "Techniques d'animation avancées avec PowerPoint",
+            "Prise en main de MS Excel",
+            "Techniques de traitement de calculs avancées"
+          ]}
+        ],
+        "avance": [
+          {"label": "Mois 3", "items": [
+            "Introduction à la bureautique connectée (Google Docs, Sheets, Slides)",
+            "Utilisation du cloud",
+            "Prise en main de MS Publisher"
+          ]},
+          {"label": "Mois 4", "items": [
+            "Planification et gestion d'équipes",
+            "Gestion de projets",
+            "Travail collaboratif",
+            "Gestion de l'information"
+          ]}
+        ],
+        "pro": [
+          {"label": "Mois 5", "items": [
+            "Stage professionnel",
+            "Mentoring et carrière pro",
+            "Prise de parole en public"
+          ]},
+          {"label": "Mois 6", "items": [
+            "Stage professionnel",
+            "Projet final",
+            "Soutenance"
+          ]}
+        ]
+      }
+    },
+    {
+      "slug": "marketing-digital",
+      "ordre": 2,
+      "actif": true,
+      "titre": "Marketing Digital",
+      "image": "md.jpg",
+      "couleur_thematique": "primary",
+      "description_courte": "Apprenez les stratégies et outils du marketing digital pour booster la présence en ligne des entreprises.",
+      "lead": "Devenez un expert en marketing digital, maîtrisez les stratégies en ligne pour booster la visibilité et les ventes d'une marque.",
+      "presentation": [
+        "Ce cursus est conçu pour vous former aux différentes facettes du marketing digital. Du community management à la publicité en ligne, vous apprendrez à utiliser les outils modernes pour optimiser la présence en ligne des entreprises.",
+        "À la fin de ce programme, vous serez capable de concevoir, de mettre en œuvre et d'analyser des campagnes de marketing digital efficaces."
+      ],
+      "programme": {
+        "express": [
+          {"label": "Mois 1", "items": [
+            "Introduction au marketing digital",
+            "Comportement du consommateur et persona",
+            "Outils de marketing digital",
+            "Gestion des réseaux sociaux",
+            "La modération client en ligne"
+          ]},
+          {"label": "Mois 2", "items": [
+            "Publicité sur les réseaux sociaux (Facebook, Instagram, LinkedIn)",
+            "SEA et Google Ads",
+            "Inbound marketing et contenus digitaux",
+            "Production vidéo et publicité digitale"
+          ]}
+        ],
+        "avance": [
+          {"label": "Mois 3", "items": [
+            "CRM et gestion de la relation client",
+            "Analyse de données et reporting",
+            "Stratégie publicitaire digitale avancée",
+            "Optimisation des ads via les outils (Eye-tracking, lecture en Z)"
+          ]},
+          {"label": "Mois 4", "items": [
+            "Éthique marketing et commerciale",
+            "Prospection clients via les plateformes",
+            "Travail de freelance en marketing digital",
+            "Structuration d'offres en social media et marketing digital",
+            "Rédaction contractuelle et personal branding"
+          ]}
+        ],
+        "pro": [
+          {"label": "Mois 5", "items": [
+            "Vie professionnelle en entreprise",
+            "Stage professionnel",
+            "Mentoring et carrière pro",
+            "Prise de parole en public"
+          ]},
+          {"label": "Mois 6", "items": [
+            "Vendez vos compétences",
+            "Stage professionnel",
+            "Projet final",
+            "Soutenance"
+          ]}
+        ]
+      }
+    },
+    {
+      "slug": "programmation-web",
+      "ordre": 3,
+      "actif": true,
+      "titre": "Programmation Web",
+      "image": "web.jpg",
+      "couleur_thematique": "primary",
+      "description_courte": "Développez des sites web modernes et interactifs en maîtrisant les langages de programmation front-end et back-end.",
+      "lead": "Apprenez à créer des sites web dynamiques et interactifs en maîtrisant les technologies front-end et back-end.",
+      "presentation": [
+        "Le cursus de Programmation Web vous guide à travers les compétences nécessaires pour devenir un développeur web compétent. Du front-end au back-end, ce programme couvre tout ce dont vous avez besoin pour créer des applications web modernes et performantes.",
+        "En fin de cursus, vous serez capable de concevoir, développer et déployer des sites web complets, en utilisant les outils et technologies les plus récents."
+      ],
+      "programme": {
+        "express": [
+          {"label": "Mois 1", "items": [
+            "Présentation du métier de développeur",
+            "Introduction à la programmation web (HTML, CSS, JS)"
+          ]},
+          {"label": "Mois 2", "items": [
+            "Développement front-end avancé (Vue.js, React, Angular)",
+            "Création de sites avec WordPress + Elementor",
+            "Outils et bonnes pratiques (Git, GitHub, Sass, etc.)"
+          ]}
+        ],
+        "avance": [
+          {"label": "Mois 3", "items": [
+            "Intégration & développement back-end (PHP, Node.js, API, BD)",
+            "Authentification et sécurité (JWT, sécurisation API, etc.)",
+            "Applications Web Progressives (PWA)"
+          ]},
+          {"label": "Mois 4", "items": [
+            "Frameworks PHP, JS (avancés)",
+            "Planification de projets",
+            "Développement collaboratif",
+            "Tests et débogage",
+            "Déploiement sur un serveur distant (nom de domaine, hébergement, etc.)"
+          ]}
+        ],
+        "pro": [
+          {"label": "Mois 5", "items": [
+            "Projet web complet : conception à déploiement",
+            "Gestion de base de données avancée (MySQL, MongoDB)",
+            "Optimisation des performances et SEO",
+            "Initiation aux microservices et architectures cloud"
+          ]},
+          {"label": "Mois 6", "items": [
+            "Stage professionnel en entreprise",
+            "Mentorat et coaching pour carrière",
+            "Projet final et soutenance",
+            "Présentation professionnelle et entretien d'embauche"
+          ]}
+        ]
+      }
+    },
+    {
+      "slug": "programmation-mobile",
+      "ordre": 4,
+      "actif": true,
+      "titre": "Programmation Mobile (Android)",
+      "image": "mob.jpg",
+      "couleur_thematique": "primary",
+      "description_courte": "Créez des applications mobiles performantes et intuitives pour Android (Java & Kotlin).",
+      "lead": "Maîtrisez la création d'applications mobiles natives sur Android en utilisant Java et Kotlin.",
+      "presentation": [
+        "Le cursus de Programmation Mobile vous offre une expertise approfondie dans le développement d'applications Android. De la création d'interfaces utilisateur à la gestion des bases de données locales, vous apprendrez à concevoir des applications robustes et performantes en utilisant Java et Kotlin.",
+        "En fin de formation, vous serez prêt à publier vos propres applications sur le Play Store et à intégrer une équipe de développement mobile."
+      ],
+      "programme": {
+        "express": [
+          {"label": "Mois 1", "items": [
+            "Création d'une application statique",
+            "Introduction à la programmation mobile",
+            "Création d'interfaces basiques",
+            "Programmation Orientée Objet (POO)",
+            "Projet 1"
+          ]},
+          {"label": "Mois 2", "items": [
+            "Création d'une application dynamique",
+            "Création d'interfaces avancées (notifications, etc.)",
+            "Gestion des bases de données locales",
+            "Signature et mise en ligne de l'application",
+            "Projet 2"
+          ]}
+        ],
+        "avance": [
+          {"label": "Mois 3", "items": [
+            "Création d'une application connectée",
+            "Architecture client/serveur",
+            "Communication avec serveur distant",
+            "Communication en temps réel",
+            "Projet 3"
+          ]},
+          {"label": "Mois 4", "items": [
+            "Programmation mobile avancée",
+            "Expérience utilisateur et algorithmes avancés",
+            "Intégration de paiements in-app",
+            "Automatisation des tests",
+            "Projet 4"
+          ]}
+        ],
+        "pro": [
+          {"label": "Mois 5", "items": [
+            "Stage professionnel en entreprise",
+            "Mentorat et coaching pour carrière",
+            "Prise de parole en public et présentation de projet"
+          ]},
+          {"label": "Mois 6", "items": [
+            "Projet final : développement complet d'une application Android",
+            "Optimisation de l'application pour le Play Store",
+            "Soutenance et évaluation finale"
+          ]}
+        ]
+      }
+    },
+    {
+      "slug": "graphisme-design",
+      "ordre": 5,
+      "actif": true,
+      "titre": "Graphisme et Design",
+      "image": "gp.jpg",
+      "couleur_thematique": "primary",
+      "description_courte": "Développez vos compétences en design graphique et multimédia pour créer des visuels percutants.",
+      "lead": "Devenez un expert en design graphique, maîtrisez les outils et techniques pour créer des visuels impactants.",
+      "presentation": [
+        "Le cursus de Graphisme et Design est conçu pour vous enseigner les bases du design, de la conception graphique à la création de supports visuels avancés. Vous apprendrez à utiliser des logiciels de pointe tels que Photoshop, Illustrator et After Effects, tout en développant une sensibilité artistique et technique.",
+        "Que vous souhaitiez devenir designer freelance ou travailler dans une agence, ce cursus vous fournira les compétences nécessaires pour réussir dans le domaine du graphisme."
+      ],
+      "programme": {
+        "express": [
+          {"label": "Mois 1", "items": [
+            "Initiation au design, style et couleurs",
+            "Initiation à Adobe Photoshop",
+            "Retouche d'image",
+            "Création de carte de visite"
+          ]},
+          {"label": "Mois 2", "items": [
+            "Adobe Photoshop avancé",
+            "Adobe Illustrator",
+            "Création de logos",
+            "Création de Flyers, Roll-Up, etc."
+          ]}
+        ],
+        "avance": [
+          {"label": "Mois 3", "items": [
+            "Introduction au web design",
+            "Maîtrise d'Adobe XD",
+            "Création de sites avec WordPress + Elementor"
+          ]},
+          {"label": "Mois 4", "items": [
+            "Utilisation avancée de Figma",
+            "Montage vidéo avec Adobe Premiere",
+            "Effets spéciaux avec Adobe After Effects"
+          ]}
+        ],
+        "pro": [
+          {"label": "Mois 5", "items": [
+            "Stage professionnel en entreprise",
+            "Mentorat et développement de carrière",
+            "Techniques de prise de parole en public"
+          ]},
+          {"label": "Mois 6", "items": [
+            "Projet final : création d'une identité visuelle complète",
+            "Optimisation pour divers supports de communication",
+            "Soutenance et évaluation finale"
+          ]}
+        ]
+      }
+    }
+  ],
+  "cursus_complet": {
+    "actif": true,
+    "slug": "cursus-complet-programmation",
+    "titre": "Cursus Complet — Programmation Web & Mobile",
+    "sous_titre": "Programme intensif 12 mois avec stage professionnel inclus",
+    "image": "all.jpg",
+    "description": "Ce cursus de 12 mois vous permettra de devenir un expert en développement web et mobile, avec un stage professionnel inclus pour consolider vos acquis.",
+    "duree_label": "12 mois",
+    "duree_mois": 12,
+    "prix_unique_fcfa": 400000,
+    "prix_2tranches_total_fcfa": 450000,
+    "specs": [
+      "Durée : 12 mois (incluant 3 mois de stage)",
+      "Technologies : HTML, CSS, JavaScript, PHP, MySQL, Java, Kotlin, Swift, Flutter",
+      "Stage Pro : 3 mois dans une entreprise partenaire",
+      "Mentorat individualisé tout au long du parcours",
+      "Projets professionnels intégrés au portfolio"
+    ]
+  },
+  "footer": {
+    "texte_droits": "Tous droits réservés.",
+    "links_utiles": []
+  }
+}

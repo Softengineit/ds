@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+.env.production
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE
+/.idea/
+/.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups + uploads runtime
+/data/inscriptions_backup/*.jsonl
+
+# Logs
+*.log

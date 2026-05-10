@@ -1,0 +1,61 @@
+# SEED Digital School — front controller routing
+
+RewriteEngine On
+
+# Redirect to HTTPS (LWS provides SSL)
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Block access to dotfiles and source/data folders (in case docroot is misconfigured)
+RewriteRule (^|/)\. - [F]
+
+# Pass everything to index.php except real files (CSS, JS, images, robots.txt actual file...)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Auto-serve WebP version to browsers that support it.
+# Convention : pour chaque image.jpg/png, un image.webp existe à côté.
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTP_ACCEPT} image/webp
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteCond %{REQUEST_URI} ^(.+)\.(jpe?g|png)$
+    RewriteCond %{DOCUMENT_ROOT}%1.webp -f
+    RewriteRule ^(.+)\.(jpe?g|png)$ /$1.webp [T=image/webp,L]
+</IfModule>
+
+# Vary header sur Accept pour caches intermédiaires
+<IfModule mod_headers.c>
+    <FilesMatch "\.(jpe?g|png)$">
+        Header append Vary Accept
+    </FilesMatch>
+</IfModule>
+
+# Cache assets aggressively
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Compress text responses
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json text/xml application/xml image/svg+xml
+</IfModule>
+
+# Default character set
+AddDefaultCharset UTF-8
+
+# Custom error pages (rendered by index.php's default branch)
+ErrorDocument 404 /index.php
+
+# PHP settings (only if mod_php; on LWS LiteSpeed/CGI ignored silently)
+<IfModule mod_php.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 12M
+    php_value max_execution_time 60
+</IfModule>
