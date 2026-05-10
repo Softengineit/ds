@@ -65,6 +65,11 @@ switch (true) {
         render_template('contact');
         break;
 
+    case $path === '/_webhook/deploy':
+        require __DIR__ . '/../src/lib/webhook_deploy.php';
+        handle_deploy_webhook();
+        break;
+
     case $path === '/sitemap.xml':
         header('Content-Type: application/xml');
         require __DIR__ . '/../src/lib/sitemap.php';
